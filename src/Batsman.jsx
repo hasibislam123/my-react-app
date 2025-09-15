@@ -29,6 +29,7 @@ export default function BatsMan(){
             <button onClick={handleSingle}>Single</button>
             <button onClick={handleFour}>Four</button>
             <button onClick={handlesix}>Six</button>
+            
         </div>
     )
 }
