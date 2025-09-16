@@ -1,6 +1,6 @@
 import { use } from "react"
 
-export default function Posts (postsPromise){
+export default function Posts ({postsPromise}){
     const Posts = use(postsPromise)
     console.log(Posts)
     return(
